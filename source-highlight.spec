@@ -1,7 +1,7 @@
 Summary: Produces a document with syntax highlighting
 Name: source-highlight
 Version: 3.1.6
-Release: 4%{?dist}
+Release: 6%{?dist}
 Group: Development/Tools
 License: GPLv3+
 Source0: ftp://ftp.gnu.org/gnu/src-highlite/%{name}-%{version}.tar.gz
@@ -91,6 +91,12 @@ fi
 %{_includedir}/srchilite/*.h
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.1.6-6
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.1.6-5
+- Mass rebuild 2013-12-27
+
 * Sat Feb 09 2013 Denis Arnaud <denis.arnaud_fedora@m4x.org> - 3.1.6-4
 - Rebuild for Boost-1.53.0
 
